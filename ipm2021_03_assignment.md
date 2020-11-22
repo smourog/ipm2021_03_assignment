@@ -37,7 +37,7 @@ desarrollar una aplicación que permita a la usuaria consultar el
 catálogo de pokémons existente.
 
 La información pertinente se encuentra almacenada en el servidor
-**PokéApi**, así que tu misión se centra en desarrollar un cliente
+**PokéApi**, y tu misión se centra en desarrollar un cliente
 web.
 
 
@@ -67,14 +67,8 @@ El servidor **PokéApi** está accesible en la dirección
 [https://pokeapi.co/](https://pokeapi.co/). Ofrece un API REST
 sencillo, que podemos usar sin necesidad de librerías extra y con el
 que podemos experimentar desde la línea de comandos con herramientas
-como `curl`, o desde la propia web.
+como `curl`, o desde la propia web del servidor.
 
-
-## Planning
-
-A continuación de presentan las _tasks_ a realizar. Recuerda que el
-éxito de la misión depende en buena parte de que lleves a cabo las
-_tasks_ en el orden planificado.
 
 ### Requisitos no funcionales
 
@@ -96,6 +90,12 @@ _tasks_ en el orden planificado.
     opción _Generate challenge_. Esta información se genera de forma
     aleatoria, así que puedes buscar la combinación que prefieras.
   
+
+## Planning
+
+A continuación de presentan las _tasks_ a realizar. Recuerda que el
+éxito de la misión depende en buena parte de que lleves a cabo las
+_tasks_ en el orden planificado.
 
 ### TASK 1: Mobile first
 
