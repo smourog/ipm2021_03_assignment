@@ -113,10 +113,8 @@ En base a tu análisis, diseña la interfaz y crea un _wireframe_ con
 las páginas necesarias. Incluye los wireframes en un fichero
 `wireframe.pdf`.
 
-Una vez realizado el diseño, impleméntalo.
-
-No olvides realizar las peticiones al servidor de manera concurrente y
-gestionar los errores.
+Una vez realizado el diseño, impleméntalo. No olvides realizar las
+peticiones al servidor de manera concurrente y gestionar los errores.
 
   
 Antes de que este cometido se pueda considerar completo debes
@@ -133,11 +131,11 @@ asegurarte de haber alcanzado las siguientes condiciones
 ### Task 2: Accesibilidad
 
 Tu siguiente cometido es asegurar que tu aplicación cumple los mayores
-estándares de accesibilida posibles.
+estándares de accesibilidad posibles.
 
 Crea un listado de todos los elementos, tanto estáticos como
-dinámicos, que forma parte de la interface de tu aplicación. Para cada
-uno de ellos:
+dinámicos, que forman parte de la interface de tu aplicación. Para
+cada uno de ellos:
 
   * Anota los aspectos de accesibilidad relacionados con el elemento.
   
@@ -148,10 +146,10 @@ uno de ellos:
 Incluye el listado con todas las anotaciones en un fichero `a11y.pdf`.
 
 > Una vez más la referencia son las normas publicadas por el _W3C_.
-> Tanto para la accesibilidad web en general (WCAG
-> 2)[https://www.w3.org/WAI/standards-guidelines/wcag/], como para la
+> Tanto para la accesibilidad web en general [WCAG
+> 2](https://www.w3.org/WAI/standards-guidelines/wcag/), como para la
 > accesibilidad de aplicaciones web
-> (WAI-ARIA)[https://www.w3.org/WAI/standards-guidelines/aria/].
+> [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/).
 
 
 
@@ -171,7 +169,7 @@ Para esta tarea tienes que aplicar las técnicas de **RWD** (Responsive
 Web Development) y mejorar tu aplicación de manera que se adapte a
 distintos tipos de dispositivos: smartphone, tablet y desktop.
 
-Actualiza el diseño e incluye lo cambios en el fichero
+Actualiza el diseño e incluye los cambios en el fichero
 `wireframe.pdf`. A continuación, implementa los cambios necesarios
 para que la interface de tu aplicación se adapte al diseño definido
 para cada uno de los dispositivos.
@@ -190,8 +188,8 @@ asegurarte de haber alcanzado las siguientes condiciones
 ### Task 4: Cross-browsing
 
 Para este cometido, tomaremos como referencia los navegadores
-_Firefox_, y _Chrome_ en sus versiones desde la fecha de comienzo de
-la misión hasta dos años atras.
+_Firefox_, y _Chrome_ en sus versiones desde dos años antes de la
+fecha de comienzo de la misión.
 
 Crea un listado con todas las propiedades y selectores empleados en
 las hojas de estilo (`css`) de la aplicación. Para cada item de la
@@ -200,11 +198,15 @@ lista:
   * Anota las versiones de Firefox y Chrome a partir de las cuales es
     compatible.
 	
-  * En caso de que no sea compatible con alguna versión de dos años
+  * En caso de que no sea compatible con alguna versión desde dos años
     atrás, deberás llevar a cabo alguna de las siguientes acciones:
 	
 	- Eliminar dicha propiedad o elemento, y usar en su lugar otro
       compatible.
+	  
+    - Usar técnicas de [detección de
+      características](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection)
+      para implementar una alternativa adecuada.
   
     - Añadir algún truco o
 	  [_polyfill_](https://developer.mozilla.org/es/docs/Glossary/Polyfill)
