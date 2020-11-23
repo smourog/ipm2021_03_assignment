@@ -17,7 +17,7 @@ Para llevar a cabo tu cometido dispondrás de los lenguajes `html5`,
 ### Plazo
 
 La misión comienza el día **25/11/20 a las 00:00:00** y se espera
-que hayas finalizado tu misión antes del día **24/11/20 a las
+que hayas finalizado tu misión antes del día **22/12/20 a las
 23:59:59**. Cualquier retraso en la finalización de tu cometido será
 penalizado de acuerdo con el reglamento de la asignatura.
 
