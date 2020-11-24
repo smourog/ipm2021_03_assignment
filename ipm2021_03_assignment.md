@@ -76,7 +76,7 @@ como `curl`, o desde la propia web del servidor.
     en todas las tareas de la misión.
 	
     En especial, el código `html5` y `css` tiene que ser examinado por
-	el validadaor del **W3C**
+	el validador del **W3C**
 	[https://validator.w3.org/](https://validator.w3.org/) sin emitir
 	errores.
 	
@@ -140,7 +140,7 @@ cada uno de ellos:
   * Anota los aspectos de accesibilidad relacionados con el elemento.
   
   * Si presenta algún problema, fallo o carencia en lo se refiere a la
-    accesibilidad, corrígelo y anota la corrección correspodiente.
+    accesibilidad, corrígelo y anota la corrección correspondiente.
   
 
 Incluye el listado con todas las anotaciones en un fichero `a11y.pdf`.
@@ -192,7 +192,7 @@ _Firefox_, y _Chrome_ en sus versiones desde dos años antes de la
 fecha de comienzo de la misión.
 
 Crea un listado con todas las propiedades y selectores empleados en
-las hojas de estilo (`css`) de la aplicación. Para cada item de la
+las hojas de estilo (`css`) de la aplicación. Para cada ítem de la
 lista:
 
   * Anota las versiones de Firefox y Chrome a partir de las cuales es
